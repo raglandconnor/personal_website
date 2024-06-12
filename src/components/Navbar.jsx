@@ -14,8 +14,19 @@ function Navbar() {
       </div>
       <div className="p-5 font-thin fixed right-6 top-6">
         <ul className="flex flex-row items-center space-x-4 text-2xl">
-          <li className="cursor-pointer">LinkedIn</li>
-          <li className="cursor-pointer">GitHub</li>
+          <li className="cursor-pointer">
+            <a
+              href="https://www.linkedin.com/in/raglandconnor/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="https://github.com/raglandconnor/" target="_blank">
+              GitHub
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
