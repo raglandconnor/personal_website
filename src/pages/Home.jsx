@@ -1,13 +1,14 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
 import About from "../components/About";
+import Skills from "../components/Skills";
 
 function Home() {
   return (
-    <>
-      <Navbar />
+    <div className="flex flex-col gap-32">
       <About />
-    </>
+      <Skills />
+    </div>
   );
 }
 
