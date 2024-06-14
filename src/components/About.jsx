@@ -17,10 +17,10 @@ function About() {
             development. I am currently studying computer science and
             mathematics at the University of Florida.
           </p>
-          <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 mr-4 rounded-md">
+          <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 mr-4 rounded-md hover:scale-105 active:scale-95">
             <Link to="/contact">Contact</Link>
           </button>
-          <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md">
+          <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95">
             <Link to="/resume">Resume</Link>
           </button>
         </div>
