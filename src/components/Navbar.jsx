@@ -33,7 +33,7 @@ function Navbar() {
               Skills
             </p>
           </NavLink>
-          <NavLink className="cursor-pointer" to="/projects">
+          <NavLink className="cursor-pointer" to="/#projects">
             <p className="transition-all duration-300 hover:ml-2 hover:mr-2 hover:scale-105">
               Projects
             </p>
