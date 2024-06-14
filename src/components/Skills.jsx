@@ -60,7 +60,7 @@ function Skills() {
   });
   return (
     <div id="skills">
-      <h1 className="text-5xl font-semibold text-center mb-8">Skills</h1>
+      <h1 className="font-semibold text-center mb-12">Skills</h1>
       <div className="grid grid-rows-3 grid-cols-6 grid-flow-row mx-56 gap-8">
         {skillsElements}
       </div>

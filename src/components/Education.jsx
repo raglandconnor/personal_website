@@ -45,7 +45,7 @@ function Education() {
 
   return (
     <div id="education" className="mx-56">
-      <h1 className="text-5xl font-semibold text-center mb-8">Education</h1>
+      <h1 className="font-semibold text-center mb-12">Education</h1>
       <div className="grid grid-rows-1 grid-cols-2 text-center">
         {educationElements}
       </div>
