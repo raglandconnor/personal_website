@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 function Navbar() {
   const handleHomeClick = () => {
     window.scrollTo({
@@ -23,19 +26,14 @@ function Navbar() {
               Home
             </p>
           </NavLink>
-          <NavLink className="cursor-pointer" to="/#about">
+          {/* <NavLink className="cursor-pointer" to="/#about">
             <p className="transition-all duration-300 hover:ml-2 hover:mr-2 hover:scale-105">
               About
             </p>
-          </NavLink>
+          </NavLink> */}
           <NavLink className="cursor-pointer" to="/#skills">
             <p className="transition-all duration-300 hover:ml-2 hover:mr-2 hover:scale-105">
               Skills
-            </p>
-          </NavLink>
-          <NavLink className="cursor-pointer" to="/#projects">
-            <p className="transition-all duration-300 hover:ml-2 hover:mr-2 hover:scale-105">
-              Projects
             </p>
           </NavLink>
           <NavLink className="cursor-pointer" to="/#education">
@@ -43,11 +41,16 @@ function Navbar() {
               Education
             </p>
           </NavLink>
-          <NavLink className="cursor-pointer" to="/#experience">
+          <NavLink className="cursor-pointer" to="/#projects">
+            <p className="transition-all duration-300 hover:ml-2 hover:mr-2 hover:scale-105">
+              Projects
+            </p>
+          </NavLink>
+          {/* <NavLink className="cursor-pointer" to="/#experience">
             <p className="transition-all duration-300 hover:ml-2 hover:scale-105">
               Experience
             </p>
-          </NavLink>
+          </NavLink> */}
         </ul>
       </div>
       <div className="p-5 font-thin fixed right-6 top-6">
@@ -56,18 +59,18 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/raglandconnor/"
               target="_blank"
-              className="cursor-pointer transition duration-150 ease-in-out hover:text-blue-500"
+              className="cursor-pointer transition-all duration-150 ease-in-out hover:text-[#0867C2]"
             >
-              LinkedIn
+              <FaLinkedin className="scale-125" />
             </a>
           </li>
           <li>
             <a
               href="https://github.com/raglandconnor/"
               target="_blank"
-              className="cursor-pointer duration-150 ease-in-out hover:text-blue-500"
+              className="cursor-pointer transition-all duration-150 ease-in-out hover:text-gray-400"
             >
-              GitHub
+              <FaGithubSquare className="scale-125" />
             </a>
           </li>
         </ul>
