@@ -54,14 +54,14 @@ function Navbar() {
         </ul>
       </div>
       <div className="p-5 font-thin fixed right-6 top-6">
-        <ul className="flex flex-row items-center space-x-4 text-2xl">
+        <ul className="flex flex-row items-center space-x-6 text-2xl">
           <li>
             <a
               href="https://www.linkedin.com/in/raglandconnor/"
               target="_blank"
               className="cursor-pointer transition-all duration-150 ease-in-out hover:text-[#0867C2]"
             >
-              <FaLinkedin className="scale-125" />
+              <FaLinkedin className="scale-150" />
             </a>
           </li>
           <li>
@@ -70,7 +70,7 @@ function Navbar() {
               target="_blank"
               className="cursor-pointer transition-all duration-150 ease-in-out hover:text-gray-400"
             >
-              <FaGithubSquare className="scale-125" />
+              <FaGithubSquare className="scale-150" />
             </a>
           </li>
         </ul>
