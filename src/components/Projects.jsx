@@ -12,7 +12,15 @@ function Projects() {
         style={{ gridTemplateColumns: "1fr 2fr" }}
       >
         <div className="p-4">
-          <img src={project.imgSrc} alt={project.alt} />
+          <div className="flex flex-row align-center justify-center">
+            <img
+              style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
+              className="rounded-lg w-64 h-48 object-cover object-top"
+              draggable="false"
+              src={project.imgSrc}
+              alt={project.alt}
+            />
+          </div>
         </div>
         <div className="p-4">
           <h5 className="font-bold">{project.title}</h5>

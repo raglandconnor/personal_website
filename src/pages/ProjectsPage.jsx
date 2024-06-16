@@ -5,13 +5,21 @@ import { projectsArr } from "../data/projects-data";
 function ProjectsPage() {
   const projectsElements = projectsArr.map((project, index) => {
     return (
-      <button className="outline text-left rounded transition-all duration-150 ease hover:outline-4">
+      <button
+        className="outline text-left rounded transition-all duration-150 ease hover:outline-4"
+        style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
+      >
         <div key={index} className="w-96">
           <div className="">
-            <img src={project.imgSrc} alt={project.alt} />
+            <img
+              src={project.imgSrc}
+              alt={project.alt}
+              className="object-cover w-full h-64"
+              draggable="false"
+            />
           </div>
           <div className="p-4">
-            <h4 className="font-bold">{project.title}</h4>
+            <h5 className="font-semibold">{project.title}</h5>
             {/* {project.description.map((text, index) => {
           return <p key={index}>{text}</p>;
         })} */}

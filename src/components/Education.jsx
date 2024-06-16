@@ -9,7 +9,7 @@ function Education() {
       location: "Gainesville, FL",
       degree: ["B.S. Computer Science", "B.A. Mathematics"],
       date: "August 2022 - May 2026",
-      gpa: "3.77",
+      gpa: ["GPA: 3.77"],
     },
     {
       imgSrc: "/logos/mchs_logo.png",
@@ -18,6 +18,7 @@ function Education() {
       location: "Stuart, FL",
       degree: ["General Education"],
       date: "August 2018 - May 2022",
+      gpa: ["GPA: 4.0", "Weighted GPA: 6.16/7", "Class Rank: 21/500"],
     },
   ];
 
@@ -37,7 +38,10 @@ function Education() {
         {school.degree.map((degree) => {
           return <p className="text-lg">{degree}</p>;
         })}
-        {school.gpa && <p className="text-lg">GPA: {school.gpa}</p>}
+        {school.gpa &&
+          school.gpa.map((gpa) => {
+            return <p className="text-lg">{gpa}</p>;
+          })}
         <p className="text-lg">{school.date}</p>
       </div>
     );

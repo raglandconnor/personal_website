@@ -1,6 +1,6 @@
 export const projectsArr = [
   {
-    imgSrc: "",
+    imgSrc: "/project-screenshots/personal-portfolio.png",
     alt: "Personal Portfolio Site Screenshot",
     title: "Personal Portfolio Website",
     description: [
@@ -8,7 +8,7 @@ export const projectsArr = [
     ],
   },
   {
-    imgSrc: "",
+    imgSrc: "/project-screenshots/todo-list.png",
     alt: "Pomodoro/Todo List Site Screenshot",
     title: "Pomodoro+ - Todo List and Pomodoro Timer Site",
     description: [
@@ -17,7 +17,7 @@ export const projectsArr = [
     ],
   },
   {
-    imgSrc: "",
+    imgSrc: "/project-screenshots/crashguard.png",
     alt: "Crash Data Aggregation Screenshot",
     title: "Crash Data Aggregation/Data Structure Comparison",
     description: [
@@ -27,7 +27,7 @@ export const projectsArr = [
     ],
   },
   {
-    imgSrc: "",
+    imgSrc: "/project-screenshots/minesweeper-clone.png",
     alt: "Minesweeper Game Screenshot",
     title: "Minesweeper Game",
     description: [
