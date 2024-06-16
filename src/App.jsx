@@ -15,24 +15,21 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        errorElement: <NotFound />,
       },
       {
         path: "/projects",
         element: <ProjectsPage />,
-        errorElement: <NotFound />,
       },
       {
         path: "/resume",
         element: <Resume />,
-        errorElement: <NotFound />,
       },
       {
         path: "/contact",
         element: <Contact />,
-        errorElement: <NotFound />,
       },
     ],
+    errorElement: <NotFound />,
   },
 ]);
 

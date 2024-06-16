@@ -96,7 +96,7 @@ function Navbar() {
         <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
       </div>
       {isOpen && (
-        <div className="backdrop-blur-lg bg-gray-600 bg-opacity-10 fixed top-20 px-2 rounded-xl right-6">
+        <div className="backdrop-blur-lg bg-gray-600 bg-opacity-10 fixed top-16 px-2 rounded-xl right-6">
           <ul className="flex flex-col items-end space-x-5 justify-center text-2xl">
             <NavLink
               className="cursor-pointer"
