@@ -55,7 +55,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="p-5 font-thin fixed left-3 top-1.5 md:right-6 md:top-6 md:left-auto z-[999]">
+      <div className="p-5 font-thin fixed right-12 top-1.5 md:right-6 md:top-6 md:left-auto z-[999]">
         <ul className="flex flex-row items-center space-x-6 text-xl md:text-3xl">
           <li>
             <a
@@ -82,7 +82,7 @@ function Navbar() {
         <div className="">{navLinks(scrollToTop)}</div>
       </div>
 
-      <div className="md:hidden backdrop-blur-lg bg-gray-600 bg-opacity-10 flex justify-end fixed p-3 top-3 right-2 left-2 rounded-full font-light">
+      <div className="md:hidden backdrop-blur-lg bg-gray-600 bg-opacity-10 flex justify-between fixed p-3 px-4 top-3 right-2 left-2 rounded-full font-light">
         <NavLink
           end
           className="cursor-pointer"
@@ -91,11 +91,9 @@ function Navbar() {
             scrollToTop();
           }}
         >
-          <LiaHomeSolid className="mr-2 text-[24px]" />
+          <LiaHomeSolid className="text-[24px]" />
         </NavLink>
-        <button onClick={toggleNavbar} className="mr-2">
-          {isOpen ? <X /> : <Menu />}
-        </button>
+        <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
       </div>
       {isOpen && (
         <div className="backdrop-blur-lg bg-gray-600 bg-opacity-10 fixed top-20 px-2 rounded-xl right-6">

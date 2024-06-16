@@ -2,8 +2,10 @@ import React from "react";
 
 function Resume() {
   return (
-    <main id="resume" className="h-screen">
-      <h1 className="mb-16 mt-32 text-center">Resume</h1>
+    <main id="resume" className="mt-32 h-screen xl:w-[1280px]">
+      <h1 className="mb-16 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50">
+        Resume
+      </h1>
       <section className="">
         <a
           href="https://drive.google.com/file/d/1YcdJlgcou1L4XyIiFJ7GFz63tL7_nGCb/view?usp=sharing"

@@ -10,7 +10,7 @@ function Root() {
     <>
       <ScrollToHashElement behavior="smooth" inline="start" block="start" />
       <Navbar />
-      <main>
+      <main className="flex w-full justify-center">
         <Outlet />
       </main>
       <Footer />

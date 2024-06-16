@@ -35,12 +35,20 @@ function Education() {
         />
         <h2 className="text-2xl font-semibold">{school.name}</h2>
         <p className="text-lg">{school.location}</p>
-        {school.degree.map((degree) => {
-          return <p className="text-lg">{degree}</p>;
+        {school.degree.map((degree, index) => {
+          return (
+            <p key={index} className="text-lg">
+              {degree}
+            </p>
+          );
         })}
         {school.gpa &&
-          school.gpa.map((gpa) => {
-            return <p className="text-lg">{gpa}</p>;
+          school.gpa.map((gpa, index) => {
+            return (
+              <p key={index} className="text-lg">
+                {gpa}
+              </p>
+            );
           })}
         <p className="text-lg">{school.date}</p>
       </div>
@@ -50,7 +58,9 @@ function Education() {
   return (
     <section id="education">
       <h1 className="font-semibold text-center mb-12">Education</h1>
-      <div className="grid gap-8">{educationElements}</div>
+      <div className="grid gap-8 md:grid-cols-2 lg:mx-48">
+        {educationElements}
+      </div>
     </section>
   );
 }

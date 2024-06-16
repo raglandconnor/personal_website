@@ -31,8 +31,8 @@ function Footer() {
   });
 
   return (
-    <footer className="mt-64 w-full border-t border-white border-opacity-50 py-12">
-      <div className="grid gap-4">
+    <footer className="mt-64 w-full xl:mx-auto xl:w-[1280px] border-t border-white border-opacity-50 py-12">
+      <div className="flex flex-col justify-center lg:flex-row lg:gap-12 gap-4">
         <div className="flex items-center justify-center">
           <a href="mailto:connor.ragland@hotmail.com" className="text-xl">
             connor.ragland@hotmail.com
