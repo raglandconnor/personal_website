@@ -31,14 +31,16 @@ function Footer() {
   });
 
   return (
-    <footer className="mt-96 w-full border-t border-white border-opacity-50 py-24">
-      <div className="flex flex-row items-center justify-center gap-x-8">
+    <footer className="mt-64 w-full border-t border-white border-opacity-50 py-12">
+      <div className="grid gap-4">
         <div className="flex items-center justify-center">
           <a href="mailto:connor.ragland@hotmail.com" className="text-xl">
             connor.ragland@hotmail.com
           </a>
         </div>
-        {socialsElements}
+        <div className="flex items-center justify-center gap-4">
+          {socialsElements}
+        </div>
       </div>
     </footer>
   );

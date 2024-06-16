@@ -9,12 +9,12 @@ function ProjectsPage() {
         className="outline text-left rounded transition-all duration-150 ease hover:outline-4"
         style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
       >
-        <div key={index} className="w-96">
+        <div key={index}>
           <div className="">
             <img
               src={project.imgSrc}
               alt={project.alt}
-              className="object-cover w-full h-64"
+              className="object-cover object-top w-full h-64"
               draggable="false"
             />
           </div>
@@ -34,9 +34,9 @@ function ProjectsPage() {
 
   return (
     <main>
-      <h1 className="mb-16">Projects</h1>
-      <section id="projects-list" className="flex justify-center">
-        <div className="grid grid-cols-3 gap-12">{projectsElements}</div>
+      <h1 className="mt-32 mb-16 text-center">Projects</h1>
+      <section id="projects-list" className="px-3">
+        <div className="grid gap-8">{projectsElements}</div>
       </section>
     </main>
   );

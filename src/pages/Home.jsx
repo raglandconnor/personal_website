@@ -7,7 +7,7 @@ import Education from "../components/Education";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-48 mt-52">
+    <div className="flex flex-col gap-48 mt-24">
       <About />
       <Skills />
       <Education />

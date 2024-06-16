@@ -2,9 +2,9 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
-      <h1 className="mb-16">Contact</h1>
-      <div className="text-xl">
+    <main className="mt-32">
+      <h1 className="text-center mb-16">Contact</h1>
+      <section className="text-xl mx-4 pb-24">
         <p>
           Email:{" "}
           <a
@@ -23,8 +23,8 @@ function Contact() {
             LinkedIn
           </a>
         </p>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

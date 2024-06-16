@@ -8,13 +8,11 @@ function Projects() {
     return (
       <div
         key={index}
-        className="grid gap-4"
-        style={{ gridTemplateColumns: "1fr 2fr" }}
+        className="grid gap-4 rounded-lg bg-gray-200 bg-opacity-10 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.02]"
       >
         <div className="p-4">
           <div className="flex flex-row align-center justify-center">
             <img
-              style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
               className="rounded-lg w-64 h-48 object-cover object-top"
               draggable="false"
               src={project.imgSrc}
@@ -32,16 +30,25 @@ function Projects() {
     );
   });
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div id="projects" className="mx-56 flex flex-col items-center">
+    <section id="projects" className="px-6">
       <h1 className="font-semibold text-center mb-12">Projects</h1>
-      {projectsElements}
-      <Link to="/projects">
-        <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95 w-36">
-          View more
-        </button>
-      </Link>
-    </div>
+      <div className="grid gap-3">{projectsElements}</div>
+      <div className="flex justify-center">
+        <Link to="/projects" onClick={scrollToTop}>
+          <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95 w-36">
+            View more
+          </button>
+        </Link>
+      </div>
+    </section>
   );
 }
 

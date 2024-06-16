@@ -31,7 +31,7 @@ function Education() {
         <img
           src={school.imgSrc}
           alt={school.imgAlt}
-          className="w-48 h-48 object-cover"
+          className="w-32 h-32 object-cover"
         />
         <h2 className="text-2xl font-semibold">{school.name}</h2>
         <p className="text-lg">{school.location}</p>
@@ -48,12 +48,10 @@ function Education() {
   });
 
   return (
-    <div id="education" className="mx-56">
+    <section id="education">
       <h1 className="font-semibold text-center mb-12">Education</h1>
-      <div className="grid grid-rows-1 grid-cols-2 text-center">
-        {educationElements}
-      </div>
-    </div>
+      <div className="grid gap-8">{educationElements}</div>
+    </section>
   );
 }
 

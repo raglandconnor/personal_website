@@ -52,19 +52,20 @@ function Skills() {
 
   const skillsElements = skillsArr.map((item, index) => {
     return (
-      <div key={index} className="flex items-center justify-center flex-col">
+      <div
+        key={index}
+        className="flex items-center justify-center flex-col scale-90"
+      >
         {item.logo}
         <p className="text-lg font-semibold">{item.text}</p>
       </div>
     );
   });
   return (
-    <div id="skills">
+    <section id="skills">
       <h1 className="font-semibold text-center mb-12">Skills</h1>
-      <div className="grid grid-rows-2 grid-cols-6 grid-flow-row mx-56 gap-8">
-        {skillsElements}
-      </div>
-    </div>
+      <div className="grid grid-cols-3 gap-4">{skillsElements}</div>
+    </section>
   );
 }
 
