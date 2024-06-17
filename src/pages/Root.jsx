@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 function Root() {
   return (
     <>
-      <ScrollToHashElement behavior="smooth" inline="start" block="start" />
+      <ScrollToHashElement behavior="smooth" inline="start" block="center" />
       <Navbar />
       <main className="flex w-full justify-center">
         <Outlet />

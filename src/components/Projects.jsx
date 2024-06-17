@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { projectsArr } from "../data/projects-data";
 
 function Projects() {
-  const projectsElements = projectsArr.map((project, index) => {
+  const projectsSubArr = projectsArr.slice(0, 4);
+  const projectsElements = projectsSubArr.map((project, index) => {
     return (
       <div
         key={index}

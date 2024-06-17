@@ -35,4 +35,22 @@ export const projectsArr = [
       "The game was created as a final projects for COP3503C at UF.",
     ],
   },
+  {
+    imgSrc: "/project-screenshots/pagerank.png",
+    alt: "Google Page Rank Algorithm",
+    title: "Google Page Rank Algorithm",
+    description: [
+      "Implemented the Google Page Rank Algorithm in C++ to rank webpages based on their importance.",
+      "The page rank algorithm was created as a project for COP3530 at UF.",
+    ],
+  },
+  {
+    imgSrc: "/project-screenshots/avl.png",
+    alt: "AVL Tree",
+    title: "Custom AVL Tree Implementation",
+    description: [
+      "Created my own custom AVL Tree Implementation from scratch in C++. The AVL Tree has all the standard functions of an AVL Tree, including insert, delete, and search.",
+      "The AVL Tree was created as a project for COP3530 at UF.",
+    ],
+  },
 ];
