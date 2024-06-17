@@ -78,11 +78,11 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="hidden md:block backdrop-blur-lg bg-gray-600 bg-opacity-10 p-5 px-12 fixed top-6 rounded-full font-light left-1/2 transform -translate-x-1/2 z-50">
+      <div className="hidden md:block backdrop-blur-lg bg-gray-600 bg-opacity-10 p-5 px-12 fixed top-6 rounded-full font-light left-1/2 transform -translate-x-1/2 z-40">
         <div className="">{navLinks(scrollToTop)}</div>
       </div>
 
-      <div className="md:hidden backdrop-blur-lg bg-gray-600 bg-opacity-10 flex justify-between fixed p-3 px-4 top-3 right-2 left-2 rounded-full font-light z-50">
+      <div className="md:hidden backdrop-blur-lg bg-gray-600 bg-opacity-10 flex justify-between fixed p-3 px-4 top-3 right-2 left-2 rounded-full font-light z-40">
         <NavLink
           end
           className="cursor-pointer"
