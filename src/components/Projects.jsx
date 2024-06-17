@@ -23,7 +23,11 @@ function Projects() {
         <div className="p-4">
           <h5 className="font-bold">{project.title}</h5>
           {project.description.map((text, index) => {
-            return <p key={index}>{text}</p>;
+            return (
+              <p key={index} className="mb-2">
+                {text}
+              </p>
+            );
           })}
         </div>
       </div>

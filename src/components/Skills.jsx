@@ -64,7 +64,7 @@ function Skills() {
   return (
     <section id="skills">
       <h1 className="font-semibold text-center mb-12">Skills</h1>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:px-12 xl:grid-cols-6 gap-4 pointer-events-none">
+      <div className="grid grid-cols-3 md:grid-cols-4 md:px-8 lg:grid-cols-5 lg:px-12 xl:grid-cols-6 xl:px-16 gap-4 pointer-events-none">
         {skillsElements}
       </div>
     </section>

@@ -5,6 +5,7 @@ function Education() {
     {
       imgSrc: "/logos/uf_logo.png",
       imgAlt: "University of Florida Logo",
+      schoolLink: "https://www.ufl.edu/",
       name: "University of Florida",
       location: "Gainesville, FL",
       degree: ["B.S. Computer Science", "B.A. Mathematics"],
@@ -14,6 +15,7 @@ function Education() {
     {
       imgSrc: "/logos/mchs_logo.png",
       imgAlt: "Martin County High School Logo",
+      schoolLink: "https://www.martinschools.org/o/mchs",
       name: "Martin County High School",
       location: "Stuart, FL",
       degree: ["General Education"],
@@ -28,12 +30,16 @@ function Education() {
         key={index}
         className="flex flex-col gap-2 justify-center items-center"
       >
-        <img
-          src={school.imgSrc}
-          alt={school.imgAlt}
-          className="w-32 h-32 object-cover"
-        />
-        <h2 className="text-2xl font-semibold">{school.name}</h2>
+        <a href={school.schoolLink} target="_blank">
+          <img
+            src={school.imgSrc}
+            alt={school.imgAlt}
+            className="w-32 h-32 object-cover"
+          />
+        </a>
+        <a href={school.schoolLink} target="_blank">
+          <h2 className="text-2xl font-semibold">{school.name}</h2>
+        </a>
         <p className="text-lg">{school.location}</p>
         {school.degree.map((degree, index) => {
           return (

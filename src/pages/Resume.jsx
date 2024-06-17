@@ -6,8 +6,9 @@ function Resume() {
       <h1 className="mb-16 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50">
         Resume
       </h1>
-      <section className="">
-        <a
+      <section className="px-12">
+        <p>unavailable</p>
+        {/* <a
           href="https://drive.google.com/file/d/1YcdJlgcou1L4XyIiFJ7GFz63tL7_nGCb/view?usp=sharing"
           target="_blank"
         >
@@ -16,7 +17,7 @@ function Resume() {
             alt="Connor Ragland Resume"
             className="px-4"
           />
-        </a>
+        </a> */}
       </section>
     </main>
   );

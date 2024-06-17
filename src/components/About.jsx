@@ -30,11 +30,17 @@ function About() {
           University of Florida.
         </p>
         <div className="mx-auto lg:mx-0">
-          <Link to="/contact" onClick={scrollToTop}>
+          {/* <Link to="/contact" onClick={scrollToTop}>
             <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 mr-4 rounded-md hover:scale-105 active:scale-95">
               Contact
             </button>
-          </Link>
+          </Link> */}
+
+          <a href="mailto:connor.ragland@hotmail.com">
+            <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 mr-4 rounded-md hover:scale-105 active:scale-95">
+              Contact
+            </button>
+          </a>
 
           <Link to="/resume" onClick={scrollToTop}>
             <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95">
