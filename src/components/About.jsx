@@ -42,11 +42,11 @@ function About() {
             </button>
           </a>
 
-          <Link to="/resume" onClick={scrollToTop}>
+          {/* <Link to="/resume" onClick={scrollToTop}>
             <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95">
               Resume
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
