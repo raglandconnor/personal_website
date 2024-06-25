@@ -62,7 +62,7 @@ function Education() {
   });
 
   return (
-    <section id="education">
+    <section id="education" className="pt-32">
       <h1 className="font-semibold text-center mb-12">Education</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:mx-48">
         {educationElements}

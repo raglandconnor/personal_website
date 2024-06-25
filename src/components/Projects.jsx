@@ -43,7 +43,7 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="px-6">
+    <section id="projects" className="pt-32 px-6">
       <h1 className="font-semibold text-center mb-12">Projects</h1>
       <div className="grid gap-3 lg:px-24">{projectsElements}</div>
       <div className="flex justify-center">
