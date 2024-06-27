@@ -22,11 +22,11 @@ function Skills() {
   const skillsArr = [
     {
       logo: <SiJavascript className="w-24 h-24 scale-90" />,
-      text: "Javascript",
+      text: "JavaScript",
     },
     {
       logo: <SiTypescript className="w-24 h-24 scale-90" />,
-      text: "Typescript",
+      text: "TypeScript",
     },
     {
       logo: <FaReact className="w-24 h-24" />,
