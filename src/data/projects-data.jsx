@@ -1,6 +1,6 @@
 export const projectsArr = [
     {
-        imgSrc: "",
+        imgSrc: "/project-screenshots/journalapp-screenshot1.png",
         alt: "Journal Application Screenshot",
         title: "Journal Application",
         description: [
