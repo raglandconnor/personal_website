@@ -3,10 +3,10 @@ import React from "react";
 import { projectsArr } from "../data/projects-data";
 
 function ProjectsPage() {
-    const projectsElements = projectsArr.map((project, index) => {
+    const projectsElements = projectsArr.map((project) => {
         return (
             <button
-                key={index}
+                key={project._id}
                 className="outline text-left rounded transition-all duration-150 ease hover:outline-4"
                 style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
             >
