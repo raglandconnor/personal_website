@@ -41,7 +41,7 @@ function ProjectDescriptionPage() {
                     <a
                         href={repoLink}
                         target="_blank"
-                        className="bg-blue-500 bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md"
+                        className="bg-blue-500 font-bold bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md"
                     >
                         GitHub Repo
                     </a>
@@ -52,7 +52,7 @@ function ProjectDescriptionPage() {
                         target="_blank"
                         className={`${
                             repoLink ? "ml-4" : ""
-                        } bg-orange-500 bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md`}
+                        } bg-orange-500 font-bold bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md`}
                     >
                         Live Site
                     </a>
