@@ -33,10 +33,10 @@ function ProjectDescriptionPage() {
             >
                 {projectTitle}
             </h1>
-            <div className="text-center xl:text-left mb-4 ml-10">
+            <div className="text-center xl:text-left w-full mb-4 px-10">
                 {techStackElements}
             </div>
-            <div className="text-center xl:text-left mb-8 ml-12">
+            <div className="text-center xl:text-left mb-8 xl:ml-12">
                 {repoLink && (
                     <a
                         href={repoLink}
@@ -58,7 +58,7 @@ function ProjectDescriptionPage() {
                     </a>
                 )}
             </div>
-            <section id="project-description-body" className="px-12">
+            <section id="project-description-body" className="sm:px-6 px-12">
                 {projectDescription}
             </section>
         </main>

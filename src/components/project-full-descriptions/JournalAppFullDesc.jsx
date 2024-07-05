@@ -19,7 +19,7 @@ function JournalAppFullDesc() {
                     <img
                         src="/project-screenshots/journal-app/journal-app-mobile-phone-journal-page.png"
                         alt="Journal Page Mobile Screenshot"
-                        className="h-[600px] object-cover"
+                        className="object-cover"
                         draggable="false"
                     />
                     <img
@@ -133,7 +133,7 @@ function JournalAppFullDesc() {
             </section>
 
             <section>
-                <h2 className="mt-24 mx-24 mb-8 font-semibold">
+                <h2 className="mt-24 lg:mx-24 mb-8 font-semibold">
                     Accessibility
                 </h2>
                 <div className="grid lg:grid-cols-2 lg:mx-24 gap-12 items-center justify-center">
