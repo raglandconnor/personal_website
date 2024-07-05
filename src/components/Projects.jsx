@@ -54,7 +54,9 @@ function Projects() {
     return (
         <section id="projects" className="pt-32 px-6">
             <h1 className="font-semibold text-center mb-12">Projects</h1>
-            <div className="grid gap-3 lg:px-56">{projectsElements}</div>
+            <div className="grid gap-3 md:px-32 lg:px-56">
+                {projectsElements}
+            </div>
             <div className="flex justify-center">
                 <Link to="/projects" onClick={scrollToTop}>
                     <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95 w-36">
