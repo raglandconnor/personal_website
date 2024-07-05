@@ -50,6 +50,7 @@ function JournalAppFullDesc() {
                     <video
                         src="/project-screenshots/journal-app/sign-up-page.mp4"
                         alt="Sign Up Page Demonstration Video"
+                        className="rounded-md"
                         autoPlay
                         loop
                         muted
@@ -81,6 +82,7 @@ function JournalAppFullDesc() {
                     <video
                         src="/project-screenshots/journal-app/adding-journal-entries-demo.mp4"
                         alt="Adding Journal Entries Demonstration Video"
+                        className="rounded-md"
                         autoPlay
                         loop
                         muted
@@ -101,7 +103,7 @@ function JournalAppFullDesc() {
                     <video
                         src="/project-screenshots/journal-app/editing-deleting-journal-entries-demo.mp4"
                         alt="Editing and Deleting Journal Entries Demonstration Video"
-                        className="lg:h-[545px]"
+                        className="lg:h-[545px] rounded-md"
                         autoPlay
                         loop
                         muted
@@ -124,6 +126,7 @@ function JournalAppFullDesc() {
                     <video
                         src="/project-screenshots/journal-app/logout-login.mp4"
                         alt="Logout/Login Demonstration Video"
+                        className="rounded-md"
                         autoPlay
                         loop
                         muted
@@ -150,6 +153,7 @@ function JournalAppFullDesc() {
                     <video
                         src="/project-screenshots/journal-app/accessibility-demo.mp4"
                         alt="Adding Journal Entries Demonstration Video"
+                        className="rounded-md"
                         autoPlay
                         loop
                         muted
