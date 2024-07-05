@@ -11,6 +11,8 @@ function ProjectDescriptionPage() {
     const projectTitle = project.title;
     const projectDescription = project.fullDescription;
     const techStack = project.techStack;
+    const repoLink = project.repoLink;
+    const deploymentLink = project.deploymentLink;
 
     const techStackElements = techStack.map((skill, index) => {
         return (
@@ -31,7 +33,31 @@ function ProjectDescriptionPage() {
             >
                 {projectTitle}
             </h1>
-            <div className="mb-8 ml-10">{techStackElements}</div>
+            <div className="text-center xl:text-left mb-4 ml-10">
+                {techStackElements}
+            </div>
+            <div className="text-center xl:text-left mb-8 ml-12">
+                {repoLink && (
+                    <a
+                        href={repoLink}
+                        target="_blank"
+                        className="bg-blue-500 bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md"
+                    >
+                        GitHub Repo
+                    </a>
+                )}
+                {deploymentLink && (
+                    <a
+                        href={deploymentLink}
+                        target="_blank"
+                        className={`${
+                            repoLink ? "ml-4" : ""
+                        } bg-orange-500 bg-opacity-60 hover:bg-opacity-75 hover:underline p-1.5 px-2 rounded-md`}
+                    >
+                        Live Site
+                    </a>
+                )}
+            </div>
             <section id="project-description-body" className="px-12">
                 {projectDescription}
             </section>

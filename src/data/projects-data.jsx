@@ -19,6 +19,8 @@ export const projectsArr = [
             "Tailwind CSS",
             "Mongoose",
         ],
+        repoLink: "https://github.com/raglandconnor/journal_app",
+        deploymentLink: "",
         fullDescription: (
             <>
                 <section>
@@ -149,6 +151,7 @@ export const projectsArr = [
                         ></video>
                     </div>
                 </section>
+
                 <section>
                     <h2 className="mt-24 mx-24 mb-8 font-semibold">
                         Accessibility
@@ -174,10 +177,17 @@ export const projectsArr = [
                         ></video>
                     </div>
                 </section>
-                <p className="mt-48 mb-4 md:mx-24 text-red-400">
-                    Reminders: talk about accessibility and being able to
-                    naviagte the entire website using only keyboard
-                </p>
+
+                <section className="text-center mt-24">
+                    <h3 className="mb-4">Access the repository here</h3>
+                    <a
+                        href="https://github.com/raglandconnor/journal_app"
+                        target="_blank"
+                        className="text-2xl font-semibold bg-blue-500 p-2 rounded-lg bg-opacity-75 hover:bg-opacity-85 hover:underline"
+                    >
+                        GitHub
+                    </a>
+                </section>
             </>
         ),
     },
@@ -189,6 +199,10 @@ export const projectsArr = [
         description: [
             "Created a personal portfolio website using React, Tailwind CSS, and React-router. The website is hosted on Vercel.",
         ],
+        techStack: ["React", "Tailwind CSS", "JavaScript", "React-router"],
+        repoLink: "https://github.com/raglandconnor/personal_website",
+        deploymentLink: "https://raglandconnor.com",
+        fullDescription: <>You are on my site right now lol</>,
     },
     {
         _id: "todo-list",

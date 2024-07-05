@@ -1,29 +1,35 @@
 import React from "react";
 
 import { projectsArr } from "../data/projects-data";
+import { Link } from "react-router-dom";
 
 function ProjectsPage() {
     const projectsElements = projectsArr.map((project) => {
         return (
-            <button
+            <Link
+                to={`/projects/${project._id}`}
                 key={project._id}
+                onClick={() => window.scrollTo(0, 0)}
                 className="outline text-left rounded transition-all duration-150 ease hover:outline-4"
-                style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
             >
-                <div>
-                    <div className="">
-                        <img
-                            src={project.imgSrc}
-                            alt={project.alt}
-                            className="object-cover object-top w-full h-64"
-                            draggable="false"
-                        />
+                <button
+                    style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
+                >
+                    <div>
+                        <div className="">
+                            <img
+                                src={project.imgSrc}
+                                alt={project.alt}
+                                className="object-cover object-top w-full h-64"
+                                draggable="false"
+                            />
+                        </div>
+                        <div className="p-4">
+                            <h5 className="font-semibold">{project.title}</h5>
+                        </div>
                     </div>
-                    <div className="p-4">
-                        <h5 className="font-semibold">{project.title}</h5>
-                    </div>
-                </div>
-            </button>
+                </button>
+            </Link>
         );
     });
 

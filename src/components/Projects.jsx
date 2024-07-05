@@ -6,33 +6,37 @@ import { projectsArr } from "../data/projects-data";
 function Projects() {
     const projectsSubArr = projectsArr.slice(0, 4);
 
-    const projectsElements = projectsSubArr.map((project, index) => {
+    const projectsElements = projectsSubArr.map((project) => {
         return (
-            <div
-                key={index}
-                className="grid md:grid-cols-2 gap-4 rounded-lg bg-gray-200 bg-opacity-10 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.02]"
+            <Link
+                to={`/projects/${project._id}`}
+                key={project._id}
+                onClick={() => window.scrollTo(0, 0)}
+                className="rounded-lg bg-gray-200 bg-opacity-10 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.02]"
             >
-                <div className="p-4">
-                    <div className="flex flex-row align-center justify-center">
-                        <img
-                            className="rounded-lg w-64 h-48 object-cover object-top"
-                            draggable="false"
-                            src={project.imgSrc}
-                            alt={project.alt}
-                        />
+                <div className="grid md:grid-cols-2 gap-4">
+                    <div className="p-4">
+                        <div className="flex flex-row align-center justify-center">
+                            <img
+                                className="rounded-lg w-64 h-48 object-cover object-top"
+                                draggable="false"
+                                src={project.imgSrc}
+                                alt={project.alt}
+                            />
+                        </div>
+                    </div>
+                    <div className="p-4">
+                        <h5 className="font-bold">{project.title}</h5>
+                        {project.description.map((text, index) => {
+                            return (
+                                <p key={index} className="mb-2">
+                                    {text}
+                                </p>
+                            );
+                        })}
                     </div>
                 </div>
-                <div className="p-4">
-                    <h5 className="font-bold">{project.title}</h5>
-                    {project.description.map((text, index) => {
-                        return (
-                            <p key={index} className="mb-2">
-                                {text}
-                            </p>
-                        );
-                    })}
-                </div>
-            </div>
+            </Link>
         );
     });
 
