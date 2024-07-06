@@ -6,30 +6,31 @@ import { Link } from "react-router-dom";
 function ProjectsPage() {
     const projectsElements = projectsArr.map((project) => {
         return (
-            <Link
-                to={`/projects/${project._id}`}
-                key={project._id}
-                onClick={() => window.scrollTo(0, 0)}
-                className="outline text-left rounded transition-all duration-150 ease hover:outline-4"
-            >
-                <button
-                    style={{ boxShadow: "0 0 6px rgba(255, 255, 255, 0.15)" }}
+            <div className="outline text-left rounded transition-all duration-150 ease hover:outline-4">
+                <Link
+                    to={`/projects/${project._id}`}
+                    key={project._id}
+                    onClick={() => window.scrollTo(0, 0)}
                 >
-                    <div>
-                        <div className="">
-                            <img
-                                src={project.imgSrc}
-                                alt={project.alt}
-                                className="object-cover object-top w-full h-64"
-                                draggable="false"
-                            />
+                    <button className="w-full bg-gray-700 bg-opacity-35 hover:bg-opacity-25">
+                        <div>
+                            <div>
+                                <img
+                                    src={project.imgSrc}
+                                    alt={project.alt}
+                                    draggable="false"
+                                    className="max-h-96 object-cover w-full"
+                                />
+                            </div>
+                            <div className="p-4">
+                                <h5 className="font-semibold underline">
+                                    {project.title}
+                                </h5>
+                            </div>
                         </div>
-                        <div className="p-4">
-                            <h5 className="font-semibold">{project.title}</h5>
-                        </div>
-                    </div>
-                </button>
-            </Link>
+                    </button>
+                </Link>
+            </div>
         );
     });
 
@@ -38,8 +39,8 @@ function ProjectsPage() {
             <h1 className="mb-16 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50">
                 Projects
             </h1>
-            <section id="projects-list" className="px-3">
-                <div className="grid lg:grid-cols-2 2xl:grid-cols-3 gap-8">
+            <section id="projects-list" className="px-3 w-full">
+                <div className="grid lg:grid-cols-2 2xl:grid-cols-3 gap-8 mx-1.5 md:mx-12 lg:mx-24 xl:mx-48 2xl:mx-96">
                     {projectsElements}
                 </div>
             </section>

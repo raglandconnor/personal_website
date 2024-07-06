@@ -1,3 +1,4 @@
+import CrashGuardFullDesc from "../components/project-full-descriptions/CrashGuardFullDesc";
 import JournalAppFullDesc from "../components/project-full-descriptions/JournalAppFullDesc";
 import PomodoroPlusFullDesc from "../components/project-full-descriptions/PomodoroPlusFullDesc";
 
@@ -64,6 +65,10 @@ export const projectsArr = [
             "Implemented the program using C++ and compared the custom implementations of a hash-map and heap.",
             "The program was created as a final project for COP3530 at UF.",
         ],
+        techStack: ["C++", "Kaggle Data Set", "Hash Map", "Heap"],
+        repoLink: "https://github.com/raglandconnor/CrashGuard",
+        deploymentLink: "",
+        fullDescription: <CrashGuardFullDesc />,
     },
     {
         _id: "minesweeper",
