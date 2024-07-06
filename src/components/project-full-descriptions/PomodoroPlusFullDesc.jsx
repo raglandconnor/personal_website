@@ -55,6 +55,7 @@ function PomodoroPlusFullDesc() {
                         src="/project-screenshots/pomodoro-plus/pomodoroplus-pomodoro-settings.png"
                         alt="Pomodoro Custom Interval Settings Menu"
                         className="rounded-md"
+                        draggable="false"
                     />
                 </div>
 
@@ -147,6 +148,7 @@ function PomodoroPlusFullDesc() {
                         src="/project-screenshots/pomodoro-plus/pomodoroplus-app-customization-screenshot.png"
                         alt="Pomodoro App Customization Settings Menu Screenshot"
                         className="rounded-md"
+                        draggable="false"
                     />
                 </div>
             </section>
