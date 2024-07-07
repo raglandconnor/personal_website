@@ -13,19 +13,22 @@ function PageRankFullDesc() {
                     Google PageRank algorithm using C++.
                 </p>
                 <p className="mb-4 md:mx-24">
-                    The algorithm takes in a graph of web pages and calculates
+                    PageRank is an algorithm used by Google Search to rank web
+                    pages in their search engine results. It measures the
+                    importance of website pages by considering the quantity and
+                    quality of links to a page, thereby determining its relative
+                    importance within the entire web graph.
+                </p>
+                <p className="mb-4 md:mx-24">
+                    This algorithm takes in a graph of web pages and calculates
                     the PageRank of each page based on the number of incoming
-                    links. PageRank is an algorithm used by Google Search to
-                    rank web pages in their search engine results. It measures
-                    the importance of website pages by considering the quantity
-                    and quality of links to a page, thereby determining its
-                    relative importance within the entire web graph.
+                    links.
                 </p>
 
                 <div className="grid items-center justify-center my-8 md:mx-32 lg:mx-48">
                     <img
                         src="/project-screenshots/pagerank.png"
-                        alt="Pomodoro Plus Main Page Screenshot"
+                        alt="Page Rank Diagram Image"
                         className="rounded-2xl"
                         draggable="false"
                     />
@@ -35,23 +38,28 @@ function PageRankFullDesc() {
                     A directed graph data structure is used to represent the web
                     pages and their links. Each node in the graph represents a
                     web page, and each directed edge represents a link from one
-                    page to another. The graph is implemented using an adjacency
-                    list for efficient storage and traversal of nodes and edges.
+                    page to another.
+                </p>
+                <p className="mb-4 md:mx-24">
+                    The graph is implemented using an adjacency list for
+                    efficient storage and traversal of nodes and edges.
                 </p>
             </section>
 
             <section>
                 <h2 className="mt-24 mx-24 mb-8 font-semibold">Features</h2>
 
-                <ul className="mb-4 mx-4 md:mx-24">
-                    <li>- Inserting edges into the graph</li>
-                    <li>
-                        - Computing PageRank values through a specified number
-                        of power iterations
+                <ul className="mb-4 mx-4 md:mx-28 list-disc">
+                    <li className="mb-2">Inserting edges into the graph</li>
+                    <li className="mb-2">
+                        Computing PageRank values through a specified number of
+                        power iterations
                     </li>
-                    <li>- Printing the ranks of pages in alphabetical order</li>
-                    <li>- Inserting edges into the graph</li>
-                    <li>- Inserting edges into the graph</li>
+                    <li className="mb-2">
+                        Printing the ranks of pages in alphabetical order
+                    </li>
+                    <li className="mb-2">Inserting edges into the graph</li>
+                    <li className="mb-2">Inserting edges into the graph</li>
                 </ul>
 
                 <p className="mb-4 md:mx-24">
@@ -68,9 +76,11 @@ function PageRankFullDesc() {
                     The project includes functions for testing, such as a method
                     to get a string representation of the page ranks and a
                     method to parse input data to construct the graph and
-                    perform PageRank calculations. These functions are useful
-                    for validating the correctness of the algorithm using unit
-                    tests.
+                    perform PageRank calculations.
+                </p>
+                <p className="mb-4 md:mx-24">
+                    These functions are useful for validating the correctness of
+                    the algorithm using unit tests.
                 </p>
             </section>
 

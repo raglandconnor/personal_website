@@ -16,7 +16,7 @@ function MinesweeperFullDesc() {
                 <div className="grid items-center justify-center my-8 md:mx-32 lg:mx-48">
                     <img
                         src="/project-screenshots/minesweeper-clone.png"
-                        alt="Pomodoro Plus Main Page Screenshot"
+                        alt="Minesweeper Main Window Screenshot"
                         className="rounded-2xl"
                         draggable="false"
                     />

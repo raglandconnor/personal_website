@@ -1,3 +1,4 @@
+import AVLTreeFullDesc from "../components/project-full-descriptions/AVLTreeFullDesc";
 import CrashGuardFullDesc from "../components/project-full-descriptions/CrashGuardFullDesc";
 import JournalAppFullDesc from "../components/project-full-descriptions/JournalAppFullDesc";
 import MinesweeperFullDesc from "../components/project-full-descriptions/MinesweeperFullDesc";
@@ -109,5 +110,9 @@ export const projectsArr = [
             "Created my own custom AVL Tree Implementation from scratch in C++. The AVL Tree has all the standard functions of an AVL Tree, including insert, delete, and search.",
             "The AVL Tree was created as a project for COP3530 at UF.",
         ],
+        techStack: ["C++", "Catch2"],
+        repoLink: "",
+        deploymentLink: "",
+        fullDescription: <AVLTreeFullDesc />,
     },
 ];
