@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function ProjectsPage() {
     const projectsElements = projectsArr.map((project) => {
         return (
-            <div className="outline text-left rounded transition-all duration-150 ease hover:outline-4">
+            <div className="outline text-left rounded transition-all duration-150 ease hover:outline-4 bg-gray-700 bg-opacity-15 hover:bg-opacity-10">
                 <Link
                     to={`/projects/${project._id}`}
                     key={project._id}
                     onClick={() => window.scrollTo(0, 0)}
                 >
-                    <button className="w-full bg-gray-700 bg-opacity-35 hover:bg-opacity-25">
+                    <button className="w-full">
                         <div>
                             <div>
                                 <img
@@ -40,7 +40,7 @@ function ProjectsPage() {
                 Projects
             </h1>
             <section id="projects-list" className="px-3 w-full">
-                <div className="grid lg:grid-cols-2 2xl:grid-cols-3 gap-8 mx-1.5 md:mx-12 lg:mx-24 xl:mx-48 2xl:mx-96">
+                <div className="grid lg:grid-cols-2 gap-8 mx-1.5 md:mx-12 lg:mx-24 xl:mx-48 2xl:mx-96">
                     {projectsElements}
                 </div>
             </section>
