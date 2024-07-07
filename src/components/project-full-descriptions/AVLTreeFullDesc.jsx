@@ -24,8 +24,8 @@ function AVLTreeFullDesc() {
                     </div>
 
                     <p className="mb-4 md:mx-24">
-                        The prompt was to create an AVL tree that would contain
-                        ID numbers and names of students at UF.
+                        The goal was to create an AVL tree that would contain ID
+                        numbers and names of students at UF.
                     </p>
                 </section>
 
