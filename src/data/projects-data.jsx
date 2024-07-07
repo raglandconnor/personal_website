@@ -1,5 +1,6 @@
 import CrashGuardFullDesc from "../components/project-full-descriptions/CrashGuardFullDesc";
 import JournalAppFullDesc from "../components/project-full-descriptions/JournalAppFullDesc";
+import MinesweeperFullDesc from "../components/project-full-descriptions/MinesweeperFullDesc";
 import PomodoroPlusFullDesc from "../components/project-full-descriptions/PomodoroPlusFullDesc";
 
 export const projectsArr = [
@@ -79,6 +80,10 @@ export const projectsArr = [
             "Created a custom version of the orgiginal Minesweeper game using C++ and SFML. The game has a functional GUI, timer, and score system.",
             "The game was created as a final projects for COP3503C at UF.",
         ],
+        techStack: ["C++", "SFML"],
+        repoLink: "https://github.com/raglandconnor/Minesweeper-Clone",
+        deploymentLink: "",
+        fullDescription: <MinesweeperFullDesc />,
     },
     {
         _id: "pagerank-algorithm",

@@ -16,47 +16,49 @@ function CrashGuardFullDesc() {
             </section>
 
             <section>
-                <div className="md:hidden grid lg:mx-24 gap-12 items-center justify-center lg:my-12">
-                    <ReactPlayer
-                        url="https://youtu.be/E8t5Uz8HIlE?si=WUVoruPFfvjgzcVm"
-                        width="100%"
-                        height="100%"
-                        controls={true}
-                        config={{
-                            youtube: {
-                                playerVars: {
-                                    autoplay: 0,
-                                    modestbranding: 1,
-                                    showinfo: 0,
-                                    rel: 0,
-                                    fs: 1,
-                                    playsinline: 1,
-                                    origin: window.location.origin,
-                                    quality: "highest",
+                <div>
+                    <div className="md:hidden grid lg:mx-24 gap-12 items-center justify-center lg:my-12">
+                        <ReactPlayer
+                            url="https://youtu.be/E8t5Uz8HIlE?si=WUVoruPFfvjgzcVm"
+                            width="100%"
+                            height="100%"
+                            controls={true}
+                            config={{
+                                youtube: {
+                                    playerVars: {
+                                        autoplay: 0,
+                                        modestbranding: 1,
+                                        showinfo: 0,
+                                        rel: 0,
+                                        fs: 1,
+                                        playsinline: 1,
+                                        origin: window.location.origin,
+                                        quality: "highest",
+                                    },
                                 },
-                            },
-                        }}
-                    />
-                </div>
-                <div className="hidden md:grid lg:mx-24 gap-12 items-center justify-center lg:my-12">
-                    <ReactPlayer
-                        url="https://youtu.be/E8t5Uz8HIlE?si=WUVoruPFfvjgzcVm"
-                        controls={true}
-                        config={{
-                            youtube: {
-                                playerVars: {
-                                    autoplay: 0,
-                                    modestbranding: 1,
-                                    showinfo: 0,
-                                    rel: 0,
-                                    fs: 1,
-                                    playsinline: 1,
-                                    origin: window.location.origin,
-                                    quality: "highest",
+                            }}
+                        />
+                    </div>
+                    <div className="hidden md:grid lg:mx-24 gap-12 items-center justify-center lg:my-12">
+                        <ReactPlayer
+                            url="https://youtu.be/E8t5Uz8HIlE?si=WUVoruPFfvjgzcVm"
+                            controls={true}
+                            config={{
+                                youtube: {
+                                    playerVars: {
+                                        autoplay: 0,
+                                        modestbranding: 1,
+                                        showinfo: 0,
+                                        rel: 0,
+                                        fs: 1,
+                                        playsinline: 1,
+                                        origin: window.location.origin,
+                                        quality: "highest",
+                                    },
                                 },
-                            },
-                        }}
-                    />
+                            }}
+                        />
+                    </div>
                 </div>
             </section>
 

@@ -29,7 +29,7 @@ function ProjectDescriptionPage() {
         <main className="mt-32 xl:w-[1280px]">
             <h1
                 id="project-description-title"
-                className="mb-4 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50"
+                className="mx-4 md:mx-0 mb-4 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50"
             >
                 {projectTitle}
             </h1>
