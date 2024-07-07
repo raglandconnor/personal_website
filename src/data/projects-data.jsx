@@ -1,6 +1,7 @@
 import CrashGuardFullDesc from "../components/project-full-descriptions/CrashGuardFullDesc";
 import JournalAppFullDesc from "../components/project-full-descriptions/JournalAppFullDesc";
 import MinesweeperFullDesc from "../components/project-full-descriptions/MinesweeperFullDesc";
+import PageRankFullDesc from "../components/project-full-descriptions/PageRankFullDesc";
 import PomodoroPlusFullDesc from "../components/project-full-descriptions/PomodoroPlusFullDesc";
 
 export const projectsArr = [
@@ -94,6 +95,10 @@ export const projectsArr = [
             "Implemented the Google Page Rank Algorithm in C++ to rank webpages based on their importance.",
             "The page rank algorithm was created as a project for COP3530 at UF.",
         ],
+        techStack: ["C++", "Catch2"],
+        repoLink: "",
+        deploymentLink: "",
+        fullDescription: <PageRankFullDesc />,
     },
     {
         _id: "avl-tree",
