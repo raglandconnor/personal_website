@@ -12,7 +12,7 @@ function Projects() {
                 to={`/projects/${project._id}`}
                 key={project._id}
                 onClick={() => window.scrollTo(0, 0)}
-                className="rounded-lg bg-gray-200 bg-opacity-10 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.02]"
+                className="rounded-lg bg-gray-500 bg-opacity-10 md:bg-opacity-5 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer hover:scale-[1.02]"
             >
                 <div className="grid md:grid-cols-2 gap-1">
                     <div className="col-span-1 p-4">
@@ -59,8 +59,8 @@ function Projects() {
             </div>
             <div className="flex justify-center">
                 <Link to="/projects" onClick={scrollToTop}>
-                    <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95 w-36">
-                        View more
+                    <button className="bg-gray-500 bg-opacity-30 text-lg py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95 w-36">
+                        View all
                     </button>
                 </Link>
             </div>
