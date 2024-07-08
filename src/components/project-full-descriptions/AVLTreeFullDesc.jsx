@@ -10,8 +10,10 @@ function AVLTreeFullDesc() {
                         Structures and Algorithms, during Spring 2024 at UF.
                     </p>
                     <p className="mb-4 md:mx-24">
-                        In this project, my goal was to create an AVL tree, a
-                        self-balancing binary search tree.
+                        I fully implemented an AVL tree in C++, creating
+                        functions for balance factor and rotations. The AVL tree
+                        also has functions for insertion, deletion, and
+                        searching.
                     </p>
 
                     <div className="grid items-center justify-center my-8 md:mx-32 lg:mx-48">

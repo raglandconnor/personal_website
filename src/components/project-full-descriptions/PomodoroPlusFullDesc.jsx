@@ -6,8 +6,8 @@ function PomodoroPlusFullDesc() {
             <section>
                 <p className="mb-4 md:mx-24">
                     This app was created as a personal project to test my React
-                    abilities and also to make a productivity tool that combined
-                    different tools I already use.
+                    capabilities and also to make a productivity tool that
+                    combined different tools I already use.
                 </p>
                 <p className="mb-4 md:mx-24">
                     In the app, there is a pomodoro timer that can use custom

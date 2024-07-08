@@ -73,10 +73,11 @@ function PageRankFullDesc() {
                 <h2 className="mt-24 mx-24 mb-8 font-semibold">Testing</h2>
 
                 <p className="mb-4 md:mx-24">
-                    The project includes functions for testing, such as a method
-                    to get a string representation of the page ranks and a
-                    method to parse input data to construct the graph and
-                    perform PageRank calculations.
+                    The project includes functions for testing, using the{" "}
+                    <span className="underline">Catch2 testing framework</span>,
+                    such as a method to get a string representation of the page
+                    ranks and a method to parse input data to construct the
+                    graph and perform PageRank calculations.
                 </p>
                 <p className="mb-4 md:mx-24">
                     These functions are useful for validating the correctness of

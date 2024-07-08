@@ -41,7 +41,13 @@ export const projectsArr = [
         techStack: ["React", "Tailwind CSS", "JavaScript", "React-router"],
         repoLink: "https://github.com/raglandconnor/personal_website",
         deploymentLink: "https://raglandconnor.com",
-        fullDescription: <>You are on my site right now lol</>,
+        fullDescription: (
+            <>
+                <p className="mb-4 md:mx-24">
+                    Hey, check out the GitHub Repo above.
+                </p>
+            </>
+        ),
     },
     {
         _id: "todo-list",
