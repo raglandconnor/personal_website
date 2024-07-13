@@ -39,8 +39,8 @@ function ProjectsPage() {
             <h1 className="mb-16 text-center xl:text-left xl:pl-12 pb-8 border-b border-white border-opacity-50">
                 Projects
             </h1>
-            <section id="projects-list" className="px-3 w-full">
-                <div className="grid lg:grid-cols-2 gap-8 mx-1.5 md:mx-12 lg:mx-24 xl:mx-48 2xl:mx-96">
+            <section id="projects-list" className="px-3 xl:w-[1200px]">
+                <div className="grid lg:grid-cols-2 gap-8 mx-1.5 md:mx-12 lg:mx-12">
                     {projectsElements}
                 </div>
             </section>

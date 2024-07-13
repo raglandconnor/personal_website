@@ -78,8 +78,8 @@ function AVLTreeFullDesc() {
                     <h2 className="mt-24 mx-24 mb-8 font-semibold">Testing</h2>
                     <p className="mb-4 md:mx-24">
                         In this project, I utilized the{" "}
-                        <span className="underline">
-                            Catch2 testing framework
+                        <span className="font-bold">
+                            Catch2 Testing Framework
                         </span>{" "}
                         to ensure the correctness of the AVL tree
                         implementation.

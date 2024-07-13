@@ -7,7 +7,7 @@ function JournalAppFullDesc() {
                 <p className="mb-4 md:mx-24">
                     My journal web app has been styled with mobile, tablet, and
                     desktop in mind. It is a{" "}
-                    <span className="underline">
+                    <span className="font-bold">
                         full-stack application with user authentication,
                         personal data encryption, and secure data handling
                     </span>
@@ -15,13 +15,13 @@ function JournalAppFullDesc() {
                 </p>
                 <p className="mb-4 md:mx-24">
                     The front-end was created using{" "}
-                    <span className="underline">React</span> and{" "}
-                    <span className="underline">Tailwind CSS</span>. The
+                    <span className="font-bold">React</span> and{" "}
+                    <span className="font-bold">Tailwind CSS</span>. The
                     back-end was created using{" "}
-                    <span className="underline">Express.js</span> and{" "}
-                    <span className="underline">Node.js</span>. The database was
-                    handled using <span className="underline">MongoDB</span> and{" "}
-                    <span className="underline">Mongoose</span>.
+                    <span className="font-bold">Express.js</span> and{" "}
+                    <span className="font-bold">Node.js</span>. The database was
+                    handled using <span className="font-bold">MongoDB</span> and{" "}
+                    <span className="font-bold">Mongoose</span>.
                 </p>
                 <div className="grid md:grid-cols-2 items-center justify-center my-8  gap-4 md:mx-28">
                     <img
@@ -53,7 +53,7 @@ function JournalAppFullDesc() {
                         </p>
                         <p className="mb-4 lg:mb-8">
                             Passwords are hashed using{" "}
-                            <span className="underline">bcrypt</span>.
+                            <span className="font-bold">bcrypt</span>.
                         </p>
                     </div>
                     <video
@@ -78,7 +78,7 @@ function JournalAppFullDesc() {
                         </p>
                         <p className="mb-4 lg:mb-8">
                             All journal entries are encrypted using{" "}
-                            <span className="underline">
+                            <span className="font-bold">
                                 mongoose-encryption
                             </span>
                             . This means that the data is encrypted in the

@@ -44,7 +44,7 @@ export const projectsArr = [
         fullDescription: (
             <>
                 <p className="mb-4 md:mx-24">
-                    Hey, check out the GitHub Repo above.
+                    Hey, check out the GitHub repo above.
                 </p>
             </>
         ),
