@@ -13,7 +13,7 @@ export const projectsArr = [
     alt: 'Reticketer Web App Screenshot',
     title: 'Reticketer',
     description: ['Blank'],
-    techStack: ['Next.js', 'JavaScript', 'React.js', 'Tailwind CSS'],
+    techStack: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Vercel'],
     repoLink: 'https://github.com/raglandconnor/reticketer',
     deploymentLink: 'https://reticketer.vercel.app/',
     fullDescription: <ReticketerFullDesc />,

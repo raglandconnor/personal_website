@@ -4,16 +4,42 @@ import ReactPlayer from 'react-player/youtube';
 function ReticketerFullDesc() {
   return (
     <div>
-      {/* <section>
+      <section>
         <p className="mb-4 md:mx-24">
-          This project was created as a final project for COP3530, Data
-          Structures and Algorithms, during Spring 2024 at UF.
+          This project was created for a 36 hour hackathon for week one at the
+          Headstarter Fellowship.
         </p>
         <p className="mb-4 md:mx-24">
-          I was in charge of the hash map implementation. Collisions were
-          handled using separate chaining.
+          My role within the team was lead front-end developer.
         </p>
-      </section> */}
+        <p className="mb-4 md:mx-24">
+          My team consisted of three other developers,{' '}
+          <a
+            href="https://adithyadevi.com/"
+            target="_blank"
+            className="underline hover:opacity-75"
+          >
+            Adithya
+          </a>
+          ,{' '}
+          <a
+            href="https://angelinali.me/"
+            target="_blank"
+            className="underline hover:opacity-75"
+          >
+            Angelina
+          </a>
+          ,{' '}
+          <a
+            href="https://poiixen.github.io/"
+            target="_blank"
+            className="underline hover:opacity-75"
+          >
+            Jorge
+          </a>
+          .
+        </p>
+      </section>
 
       <section>
         <div>
