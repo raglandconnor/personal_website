@@ -26,7 +26,7 @@ function About() {
           Hi, I'm Connor Ragland
         </h1>
         <p className="text-lg font-light text-center lg:text-left">
-          Currently, I am studying computer science and mathematics at the
+          I am a student studying Computer Science and Mathematics at the
           University of Florida.
         </p>
         <div className="mx-auto lg:mx-0">
