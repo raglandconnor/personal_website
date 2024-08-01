@@ -70,8 +70,7 @@ export const projectsArr = [
     ],
     techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
     repoLink: 'https://github.com/raglandconnor/personal-todo-app',
-    deploymentLink:
-      'https://pomodoro-plus-qc99zqf4l-connor-raglands-projects.vercel.app/',
+    deploymentLink: 'https://pomodoro-plus-iota.vercel.app/',
     fullDescription: <PomodoroPlusFullDesc />,
   },
   {
