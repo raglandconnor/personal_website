@@ -12,7 +12,10 @@ export const projectsArr = [
     imgSrc: '/project-screenshots/reticketer-screenshot.png',
     alt: 'Reticketer Web App Screenshot',
     title: 'Reticketer',
-    description: ['Blank'],
+    description: [
+      'An all-in-one ticket reselling platform for any event, at any time.',
+      "Created as a project for Headstarter's week one hackatho.",
+    ],
     techStack: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Vercel'],
     repoLink: 'https://github.com/raglandconnor/reticketer',
     deploymentLink: 'https://reticketer.vercel.app/',
@@ -25,9 +28,8 @@ export const projectsArr = [
     title: 'Journal Web App',
     description: [
       'Inspired by the Apple iPhone journal app, I wanted to create my own.',
-      'Full-stack application with user authentication and secure data handling, using React and Express.js.',
-      'The database was made using MongoDB and Mongoose, for retrieval of text and images.',
-      'The application allows users login and create journal entries with a title, body, and images. Timestamps are saved automatically and entries are ordered accordingly.',
+      'Full-stack application with user authentication and secure data handling.',
+      'Users can create accounts, write journal entries, and view/edit past entries.',
     ],
     techStack: [
       'MongoDB',
@@ -47,10 +49,14 @@ export const projectsArr = [
     imgSrc: '/project-screenshots/personal-portfolio.png',
     alt: 'Personal Portfolio Site Screenshot',
     title: 'Personal Portfolio Website',
-    description: [
-      'Created a personal portfolio website using React, Tailwind CSS, and React-router. The website is hosted on Vercel.',
+    description: ['My personal website where I showcase projects and skills.'],
+    techStack: [
+      'React',
+      'Tailwind CSS',
+      'JavaScript',
+      'React-router',
+      'Vercel',
     ],
-    techStack: ['React', 'Tailwind CSS', 'JavaScript', 'React-router'],
     repoLink: 'https://github.com/raglandconnor/personal_website',
     deploymentLink: 'https://raglandconnor.com',
     fullDescription: (
@@ -65,10 +71,9 @@ export const projectsArr = [
     alt: 'Pomodoro/Todo List Site Screenshot',
     title: 'Pomodoro+ - Todo List and Pomodoro Timer Site',
     description: [
-      'Created a website that combines a todo-list and a pomodoro timer. I specifically designed the website to include additional features such as a display of a remaining time for a task and the ability to edit the interval lengths for the pomodoro timer.',
-      'Developed using React, HTML, and CSS. The website is hosted on Vercel.',
+      'Designed a productivity web app that include features such as a display of a remaining time for a task and the ability to edit the interval lengths for the pomodoro timer.',
     ],
-    techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
+    techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Vercel'],
     repoLink: 'https://github.com/raglandconnor/personal-todo-app',
     deploymentLink: 'https://pomodoro-plus-iota.vercel.app/',
     fullDescription: <PomodoroPlusFullDesc />,
@@ -79,9 +84,9 @@ export const projectsArr = [
     alt: 'Crash Data Aggregation Screenshot',
     title: 'Crash Data Aggregation/Data Structure Comparison',
     description: [
-      'Developed a program that aggregates crash data from a CSV file and finds the places with the top x number of crashes.',
-      'Implemented the program using C++ and compared the custom implementations of a hash-map and heap.',
-      'The program was created as a final project for COP3530 at UF.',
+      'Developed a program that aggregates crash data finds the places with the top x number of crashes.',
+      'Created as a final project for COP3530 where we were tasked to compare two data structures.',
+      'I was in charge of building the hash map.',
     ],
     techStack: ['C++', 'Kaggle Data Set', 'Hash Map', 'Heap'],
     repoLink: 'https://github.com/raglandconnor/CrashGuard',
