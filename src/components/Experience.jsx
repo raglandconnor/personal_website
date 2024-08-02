@@ -1,22 +1,7 @@
 import React from 'react';
+import { experienceArr } from '../data/experience-data';
 
 function Experience() {
-  const experienceArr = [
-    {
-      title: 'Software Engineer Fellow',
-      company: 'Headstarter AI',
-      link: true,
-      linkColor: '#2AFCCF',
-      companyLink: 'https://headstarter.co/',
-      location: 'Remote',
-      startDate: 'Jul 2024',
-      endDate: 'Present',
-      description: [
-        'Intensive learning program for web development and artificial intelligence',
-      ],
-    },
-  ];
-
   const experienceElements = experienceArr.map((experience, idx) => {
     return (
       <div key={idx} className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -26,7 +11,12 @@ function Experience() {
             <a
               href={experience.companyLink}
               target="_blank"
-              className={`text-lg font-semibold italic hover:text-[${experience.linkColor}] hover:underline`}
+              className="text-lg font-semibold italic hover:underline"
+              style={{ color: '#fff' }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.color = experience.linkColor)
+              }
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'inherit')}
             >
               {experience.company}
             </a>
