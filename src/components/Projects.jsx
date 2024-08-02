@@ -90,6 +90,7 @@ function Projects() {
         to={`/projects/${project._id}`}
         key={project._id}
         onClick={() => window.scrollTo(0, 0)}
+        draggable="false"
       >
         <ProjectCard
           title={project.title}
@@ -112,7 +113,7 @@ function Projects() {
 
       <div className="flex flex-row items-center justify-center">
         <Link to="/projects" onClick={() => window.scrollTo(0, 0)}>
-          <button className="bg-zinc-600 bg-opacity-30 text-lg py-2 px-4 mt-4 rounded-md hover:scale-[1.02] active:scale-95 w-36">
+          <button className="bg-zinc-600 bg-opacity-30 text-xl py-2 px-4 mt-4 rounded-md hover:scale-[1.02] active:scale-95 w-36">
             View all
           </button>
         </Link>

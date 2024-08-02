@@ -11,6 +11,7 @@ function ProjectsPage() {
         to={`/projects/${project._id}`}
         key={project._id}
         onClick={() => window.scrollTo(0, 0)}
+        draggable="false"
       >
         <ProjectCard
           title={project.title}
