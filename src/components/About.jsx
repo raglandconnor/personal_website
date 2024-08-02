@@ -37,7 +37,7 @@ function About() {
           </Link> */}
 
           <a href="mailto:connor.ragland@hotmail.com">
-            <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95">
+            <button className="bg-gray-500 bg-opacity-30 py-2 px-4 mt-4 rounded-md hover:scale-[1.02]">
               Contact
             </button>
           </a>
@@ -52,7 +52,7 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-gray-500 bg-opacity-30 ml-2 py-2 px-4 mt-4 rounded-md hover:scale-105 active:scale-95">
+            <button className="bg-gray-500 bg-opacity-30 ml-2 py-2 px-4 mt-4 rounded-md hover:scale-[1.02]">
               Resume
             </button>
           </a>
