@@ -25,7 +25,7 @@ const ProjectCard = ({ title, shortDescription, techStack, imageUrl }) => {
       <div className="pointer-events-none">
         <h4 className="mb-3 text-[1.6rem]">{title}</h4>
         <img
-          className="rounded-lg w-full h-64 object-cover object-top mb-3"
+          className={`rounded-lg w-full h-64 object-cover object-top mb-3`}
           draggable="false"
           src={imageUrl}
           alt={title}
