@@ -56,12 +56,15 @@ export const projectsArr = [
       'JavaScript',
       'React-router',
       'Vercel',
+      'Google Analytics',
     ],
     repoLink: 'https://github.com/raglandconnor/personal_website',
     deploymentLink: 'https://raglandconnor.com',
     fullDescription: (
       <>
-        <p className="mb-4 md:mx-24">Hey, check out the GitHub repo above.</p>
+        <p className="mb-4 md:mx-24">
+          Check out the GitHub repo above for more details.
+        </p>
       </>
     ),
   },
