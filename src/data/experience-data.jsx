@@ -12,4 +12,17 @@ export const experienceArr = [
       'Intensive learning program for web development and artificial intelligence',
     ],
   },
+  {
+    title: 'Software Engineer Intern',
+    company: 'Florida Community Innovation',
+    link: true,
+    linkColor: '#015AE2',
+    companyLink: 'https://floridainnovation.org/',
+    location: 'Hybrid - Gainesville, FL',
+    startDate: 'Jul 2024',
+    endDate: 'Present',
+    description: [
+      'Building human-centered technology for the Florida community',
+    ],
+  },
 ];
