@@ -18,7 +18,7 @@ export const projectsArr = [
     ],
     techStack: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Vercel'],
     repoLink: 'https://github.com/raglandconnor/reticketer',
-    deploymentLink: 'https://reticketer.vercel.app/',
+    deploymentLink: 'https://reticketer.raglandconnor.com/',
     fullDescription: <ReticketerFullDesc />,
   },
   {
@@ -78,7 +78,7 @@ export const projectsArr = [
     ],
     techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Vercel'],
     repoLink: 'https://github.com/raglandconnor/personal-todo-app',
-    deploymentLink: 'https://pomodoro-plus-iota.vercel.app/',
+    deploymentLink: 'https://pomodoroplus.raglandconnor.com/',
     fullDescription: <PomodoroPlusFullDesc />,
   },
   {

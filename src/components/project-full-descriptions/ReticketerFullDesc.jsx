@@ -107,7 +107,7 @@ function ReticketerFullDesc() {
       <section className="text-center mt-24">
         <h3 className="mb-4">Check out the live site</h3>
         <a
-          href="https://reticketer.vercel.app/"
+          href="https://reticketer.raglandconnor.com/"
           target="_blank"
           className="text-2xl font-semibold bg-orange-500 p-2 rounded-lg bg-opacity-75 hover:bg-opacity-85 hover:underline"
         >

@@ -152,7 +152,7 @@ function PomodoroPlusFullDesc() {
         <h3 className="mb-4">Try it out</h3>
 
         <a
-          href="https://pomodoro-plus-iota.vercel.app/"
+          href="https://pomodoroplus.raglandconnor.com/"
           target="_blank"
           className="text-2xl font-semibold bg-orange-500 p-2 rounded-lg bg-opacity-75 hover:bg-opacity-85 hover:underline"
         >
