@@ -10,24 +10,23 @@ import { SiMongodb } from 'react-icons/si';
 import { SiMongoose } from 'react-icons/si';
 import { PiFileCppLight } from 'react-icons/pi';
 import { FaPython } from 'react-icons/fa';
-import { SiReactrouter } from 'react-icons/si';
 import { RiTailwindCssFill } from 'react-icons/ri';
-import { SiPostman } from 'react-icons/si';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
 import { SiSfml } from 'react-icons/si';
 import { FaApple } from 'react-icons/fa';
 import { SiWindows11 } from 'react-icons/si';
+import { SiOpenai } from 'react-icons/si';
 
 function Skills() {
   const skillsArr = [
     {
-      logo: <SiJavascript className="w-24 h-24 scale-90" />,
-      text: 'JavaScript',
+      logo: <PiFileCppLight className="w-24 h-24" />,
+      text: 'C++',
     },
     {
-      logo: <SiTypescript className="w-24 h-24 scale-90" />,
-      text: 'TypeScript',
+      logo: <SiJavascript className="w-24 h-24 scale-90" />,
+      text: 'JavaScript',
     },
     {
       logo: <RiNextjsFill className="w-24 h-24 scale-105" />,
@@ -36,6 +35,34 @@ function Skills() {
     {
       logo: <FaReact className="w-24 h-24" />,
       text: 'React',
+    },
+    {
+      logo: <RiTailwindCssFill className="w-24 h-24" />,
+      text: 'Tailwind CSS',
+    },
+    {
+      logo: <SiOpenai className="w-24 h-24 scale-90" />,
+      text: 'OpenAI API',
+    },
+    {
+      logo: <FaPython className="w-24 h-24" />,
+      text: 'Python',
+    },
+    {
+      logo: <FaHtml5 className="w-24 h-24" />,
+      text: 'HTML',
+    },
+    {
+      logo: <FaCss3Alt className="w-24 h-24" />,
+      text: 'CSS',
+    },
+    {
+      logo: <SiSfml className="w-24 h-24 scale-90" />,
+      text: 'SFML',
+    },
+    {
+      logo: <SiTypescript className="w-24 h-24 scale-90" />,
+      text: 'TypeScript',
     },
     {
       logo: <FaNodeJs className="w-24 h-24 scale-90" />,
@@ -52,38 +79,6 @@ function Skills() {
     {
       logo: <SiMongoose className="w-24 h-24" />,
       text: 'Mongoose',
-    },
-    {
-      logo: <PiFileCppLight className="w-24 h-24" />,
-      text: 'C++',
-    },
-    {
-      logo: <FaPython className="w-24 h-24" />,
-      text: 'Python',
-    },
-    {
-      logo: <SiReactrouter className="w-24 h-24" />,
-      text: 'React-Router',
-    },
-    {
-      logo: <RiTailwindCssFill className="w-24 h-24" />,
-      text: 'Tailwind CSS',
-    },
-    {
-      logo: <SiPostman className="w-24 h-24 scale-90" />,
-      text: 'Postman',
-    },
-    {
-      logo: <FaHtml5 className="w-24 h-24" />,
-      text: 'HTML',
-    },
-    {
-      logo: <FaCss3Alt className="w-24 h-24" />,
-      text: 'CSS',
-    },
-    {
-      logo: <SiSfml className="w-24 h-24 scale-90" />,
-      text: 'SFML',
     },
     {
       logo: <FaApple className="w-24 h-24" />,
